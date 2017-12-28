@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="beer.png" width="1024" height="1024" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <obj_info name="bone_000" type="bone" w="90.05" h="10"/>
+        <animation id="0" name="Float" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="1" key="0"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="50">
+                    <bone_ref id="0" timeline="1" key="1"/>
+                    <object_ref id="0" parent="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="450">
+                    <bone_ref id="0" timeline="1" key="2"/>
+                    <object_ref id="0" parent="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="3" time="500">
+                    <bone_ref id="0" timeline="1" key="3"/>
+                    <object_ref id="0" parent="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="4" time="550">
+                    <bone_ref id="0" timeline="1" key="4"/>
+                    <object_ref id="0" parent="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="5" time="950">
+                    <bone_ref id="0" timeline="1" key="5"/>
+                    <object_ref id="0" parent="0" timeline="0" key="3" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="beer">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="69.261532" y="53.337043" angle="271.909152" scale_x="0.1" scale_y="0.1"/>
+                </key>
+                <key id="1" time="50" spin="0">
+                    <object folder="0" file="0" x="69.261532" y="53.337043" angle="271.909152" scale_x="0.1" scale_y="0.1"/>
+                </key>
+                <key id="2" time="550" spin="0">
+                    <object folder="0" file="0" x="69.261532" y="53.337043" angle="271.909152" scale_x="0.1" scale_y="0.1"/>
+                </key>
+                <key id="3" time="950" spin="0">
+                    <object folder="0" file="0" x="69.261532" y="53.337043" angle="271.909152" scale_x="0.1" scale_y="0.1"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="0" name="bone_000" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="1" y="-17" angle="88.090848"/>
+                </key>
+                <key id="1" time="50" spin="0">
+                    <bone x="1" y="-12" angle="88.090848"/>
+                </key>
+                <key id="2" time="450" spin="0">
+                    <bone y="33.9" angle="88.090848"/>
+                </key>
+                <key id="3" time="500" spin="0">
+                    <bone x="1" y="30" angle="88.090848"/>
+                </key>
+                <key id="4" time="550" spin="0">
+                    <bone x="1" y="30" angle="88.090848"/>
+                </key>
+                <key id="5" time="950" spin="0">
+                    <bone x="1" y="-12" angle="88.090848"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
